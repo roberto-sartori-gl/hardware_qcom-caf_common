@@ -12,7 +12,7 @@ cc_binary {
         "main.cpp",
     ],
 
-    header_libs: ["generated_kernel_headers"],
+    header_libs: ["device_kernel_headers"],
 
     shared_libs: [
         "libc",
